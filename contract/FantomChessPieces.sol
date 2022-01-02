@@ -17,7 +17,7 @@ contract FantomChessPieces is ERC721, ERC721Enumerable, ERC721URIStorage, Ownabl
     string private _baseUrl;
     string public baseExtension = ".json";
 
-    constructor(string memory baseUrl) ERC721("FantomChessPieces", "WAVES") {
+    constructor(string memory baseUrl) ERC721("FantomChessPieces", "PIECES") {
         _baseUrl = baseUrl;
     }
 
